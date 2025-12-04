@@ -15,9 +15,9 @@ header {
   padding: 20px;
   align-items: center;
   justify-content: space-between;
-
+  max-width: 1200px;
   background-color: #f0f0f0;
-
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -247,4 +247,19 @@ aside {
   nav li {
     margin: 5px 0;
   }
+}
+
+nav a:hover {
+  color: #d37801;
+  transition: color 0.5s ease;
+}
+
+.botao-link:hover {
+  background-color: #d37801;
+  transition: background-color 0.5s ease;
+}
+
+.botao-comprar:hover {
+  background-color: #d37801;
+  transition: background-color 0.5s ease;
 }

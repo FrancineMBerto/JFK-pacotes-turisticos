@@ -263,3 +263,56 @@ nav a:hover {
   background-color: #d37801;
   transition: background-color 0.5s ease;
 }
+
+.container-form {
+  width: 80%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.container-form input[type="text"],
+.container-form input[type="password"],
+.container-form input[type="email"],
+.container-form input[type="date"],
+.container-form select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.botoes button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background: #b40202;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.container-form div {
+  margin-bottom: 15px;
+}
+
+.container-form input[type="text"],
+.container-form input[type="email"],
+.container-form input[type="tel"],
+.container-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container-form textarea {
+  font-family: sans-serif;
+  resize: vertical;
+}
+
+.container-form label {
+  font-weight: bold;
+}
